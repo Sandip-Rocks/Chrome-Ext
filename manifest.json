@@ -1,0 +1,19 @@
+
+  {
+    "name": "Time Saver",
+    "version": "1.0",
+    "description": "Saves your time",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js","main.js"]
+    },
+    "browser_action":{
+      "default_icon":"time_machine.png",
+      "default_title":"Timezone finder",
+      "default_popup":"popup.html"
+    },
+    "icons":{
+      "128":"time_machine.png"
+    },
+    "manifest_version": 2
+}
